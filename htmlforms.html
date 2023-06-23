@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+    <form>
+        <label for="username">enter username:</label>
+        <input type="text" id="username" required>
+        <br><br>
+        <label for="email">enter email address:</label>
+        <input type="email" id="email" required>
+        <br><br>
+        <label for="password">enter password:</label>
+        <input type="password" id="password" required>
+
+        <p>Select your age</p>
+        <input type="radio" name="age" value="15-25" id="Option 1">
+        <label for="Option 1">15-25</label>
+        <input type="radio" name="age" value="25-35" id="Option 2">
+        <label for="Option 2">25-35</label>
+        <input type="radio" name="age" value="35-45" id="Option 3">
+        <label for="Option 3">35-45</label>
+
+        <br><br>
+
+        <label for="question">Security Questions:</label>
+        <select name="question" id="question">
+            <option value="Q1">What is your favourite color of socks?</option>
+            <option value="Q2">What is your alternate id?</option>
+            <option value="Q3">What is your childhood bestfirend name?</option>
+
+            <br><br>
+
+            <label for="answer">Security Question Answer</label>
+            <input type="text" id="answer" name="answer">
+
+            <br><br>
+
+            <label for="Tell about yourself">Tell about yourself:</label><br>
+            <textarea name="Tell about yourself" id="Tell about yourself" cols="30" rows="10"
+                placeholder="About you.."></textarea>
+
+            <br><br>
+
+            <input type="submit" value="submit the button">
+
+
+
+
+
+
+        </select>
+
+    </form>
+</body>
+
+</html>
